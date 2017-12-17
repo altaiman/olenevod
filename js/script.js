@@ -1,7 +1,9 @@
 $(function(){
     $('.events__slider').slick({
         slidesToShow: 1,
-        arrows: false,
+        // arrows: false,
+        prevArrow: $('.arrow_prev'),
+        nextArrow: $('.arrow_next')
     });
 
     $('.faq__question').on('click', function() {
