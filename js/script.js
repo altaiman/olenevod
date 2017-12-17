@@ -7,4 +7,9 @@ $(function(){
     $('.faq__question').on('click', function() {
         $(this).toggleClass('open');
     });
+
+    $('.countdown').flipcountdown({
+        size: 'sm'
+    });
+
 });
